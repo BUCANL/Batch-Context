@@ -7,7 +7,7 @@ remote server addresses and facilitates working with a remote environments.
 
 ## Documentation
 
-All documentation is stored on the [Wiki](https://git.sharcnet.ca/bucanl_eeglab_extensions/batch_context/wikis/home).
+All documentation is stored on the [Wiki](https://github.com/BUCANL/Batch-Context/wiki).
 
 ## Attribution
 
