@@ -1,6 +1,6 @@
 # Batch Context
 
-The batch_context extension for EEGLAB provides and interface for generating data 
+The Batch Context extension for EEGLAB provides and interface for generating data 
 processing pipelines and executing them on multiple data files either locally or 
 on remote compute clusters. This extension also provides the tools needed to manages 
 remote server addresses and facilitates working with a remote environments.
