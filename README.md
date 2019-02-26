@@ -5,20 +5,17 @@ processing pipelines and executing them on multiple data files either locally or
 on remote compute clusters. This extension also provides the tools needed to manages 
 remote server addresses and facilitates working with a remote environments.
 
-## Documentation
-
 All documentation is stored on the [Wiki](https://github.com/BUCANL/Batch-Context/wiki).
 
 ## Attribution
 
-Code initially designed and written by James A. Desjardins (SHARCNET) with contributions from Andrew Lofts, Allan Campopiano, Brad Kennedy and Mike Cichonski supported by NSERC to Sidney J. Segalowitz at the Jack and Nora Walker Centre for Lifespan Development Research (Brock University), Brain Canada funding to Alan C. Evans at the Montreal Neurological Institute and Hospital (McGill University), and a Dedicated Programming award from SHARCNET, Compute Ontario.
+Code initially designed and written by James A. Desjardins (SHARCNET) with contributions from Andrew Lofts, Allan Campopiano, Brad Kennedy, Mike Cichonski, Tyler K. Collins, and Sara Stephenson supported by NSERC to Sidney J. Segalowitz at the Jack and Nora Walker Centre for Lifespan Development Research (Brock University), Brain Canada funding to Alan C. Evans at the Montreal Neurological Institute and Hospital (McGill University), and a Dedicated Programming award from SHARCNET, Compute Ontario.
 
 This package includes the following external tools from the Matlab File Share:
 Property grid using JIDE implementation, by Levente Hunyadi
 
 System applications that work well with the Context plugin include 
-Meld 1.7 (or later), sshfs, and rsync.   
-
+Meld 1.7 (or later), sshfs, and rsync.
 
 Copyright (C) 2017 James Desjardins
 
