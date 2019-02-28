@@ -1,11 +1,11 @@
 # Batch Context
 
-The Batch Context extension for EEGLAB provides and interface for generating data 
+The Batch Context extension for EEGLAB provides an interface for generating data 
 processing pipelines and executing them on multiple data files either locally or 
-on remote compute clusters. This extension also provides the tools needed to manages 
-remote server addresses and facilitates working with a remote environments.
+on remote clusters. This extension also provides the tools needed to manage 
+remote server addresses and facilitates working in remote environments.
 
-All documentation is stored on the [Wiki](https://github.com/BUCANL/Batch-Context/wiki).
+All documentation is stored on the [Wiki](https://github.com/BUCANL/Batch-Context/wiki) which contains relevant video tutorials.
 
 ## Attribution
 
@@ -13,9 +13,6 @@ Code initially designed and written by James A. Desjardins (SHARCNET) with contr
 
 This package includes the following external tools from the Matlab File Share:
 Property grid using JIDE implementation, by Levente Hunyadi
-
-System applications that work well with the Context plugin include 
-Meld 1.7 (or later), sshfs, and rsync.
 
 Copyright (C) 2017 James Desjardins
 
