@@ -29,7 +29,7 @@
 % Copyright (C) 2017 Brock University Cognitive and Affective Neuroscience Lab
 %
 % Code written by James A. Desjardins, Allan Campopiano, Andrew Lofts,
-%                 Michael Cichonski, and Brad Kennedy
+%                 Michael Cichonski, and Mae Kennedy
 %
 % This program is free software; you can redistribute it and/or modify
 % it under the terms of the GNU General Public License as published by

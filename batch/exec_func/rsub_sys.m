@@ -25,7 +25,7 @@
 % Copyright (C) 2017 Brock University Cognitive and Affective Neuroscience Lab
 %
 % Code written by James A. Desjardins, Allan Campopiano, Andrew Lofts, and
-% Brad Kennedy
+% Mae Kennedy
 %
 % This program is free software; you can redistribute it and/or modify
 % it under the terms of the GNU General Public License as published by
@@ -80,7 +80,7 @@ end
 
 
 %% GET THE QSUBSTR... UPDATE TO EXECUTION OF BASH SCRIPT...
-% TODO(brad) fix these so they are readable
+% TODO(mae) fix these so they are readable
 long_mpath = fullfile(cc.log, tjob.m_path);
 
 sshhost = sprintf('%s@%s', cc.remote_user_name, cc.remote_exec_host);

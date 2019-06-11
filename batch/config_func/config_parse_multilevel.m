@@ -20,7 +20,7 @@
 
 % Copyright (C) 2017 Brock University Cognitive and Affective Neuroscience Lab
 %
-% Code written by Brad Kennedy
+% Code written by Mae Kennedy
 %
 % This program is free software; you can redistribute it and/or modify
 % it under the terms of the GNU General Public License as published by
@@ -44,7 +44,7 @@ function out = config_parse_multilevel(in)
     scan = scan(~cellfun(@isempty, strtrim(scan)));
 
     % Get first non space
-    % TODO(brad) both spaces and tabs
+    % TODO(mae) both spaces and tabs
     indent_vals = cellfun(@max, strfind(scan, sprintf('\t')), 'UniformOutput', false);
     %indent_vals = cellfun(@max, strfind(scan, sprintf(' ')), 'UniformOutput', false);
 

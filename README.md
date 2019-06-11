@@ -9,7 +9,7 @@ All documentation is stored on the [Wiki](https://github.com/BUCANL/Batch-Contex
 
 ## Attribution
 
-Code initially designed and written by James A. Desjardins (SHARCNET) with contributions from Andrew Lofts, Allan Campopiano, Brad Kennedy, Mike Cichonski, Tyler K. Collins, and Sara Stephenson supported by NSERC to Sidney J. Segalowitz at the Jack and Nora Walker Centre for Lifespan Development Research (Brock University), Brain Canada funding to Alan C. Evans at the Montreal Neurological Institute and Hospital (McGill University), and a Dedicated Programming award from SHARCNET, Compute Ontario.
+Code initially designed and written by James A. Desjardins (SHARCNET) with contributions from Andrew Lofts, Allan Campopiano, Mae Kennedy, Mike Cichonski, Tyler K. Collins, and Sara Stephenson supported by NSERC to Sidney J. Segalowitz at the Jack and Nora Walker Centre for Lifespan Development Research (Brock University), Brain Canada funding to Alan C. Evans at the Montreal Neurological Institute and Hospital (McGill University), and a Dedicated Programming award from SHARCNET, Compute Ontario.
 
 This package includes the following external tools from the Matlab File Share:
 Property grid using JIDE implementation, by Levente Hunyadi
