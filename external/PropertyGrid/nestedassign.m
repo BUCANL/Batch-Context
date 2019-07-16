@@ -25,7 +25,7 @@
 % Copyright 2010 Levente Hunyadi
 function obj = nestedassign(obj, name, value)
     if ~iscell(name)
-        nameparts = pg_strsplit(name, '.');
+        nameparts = strsplit(name, '.');
     else
         nameparts = name;
     end

@@ -52,13 +52,23 @@ function version = eegplugin_batch_context(fig,try_strings,catch_strings)
 
 version = get_version('batch_context', 'batch_context1.0.0');
 
+% Removing the code found in the following if-statement will alow for
+% multiple copies of PropertyGrid to be in the Matlab path. This has been
+% known to cause issues inside of EEGLAB. If there are any compatability
+% issues please contact us.
+if exist('PropertyGrid')
+    warning('PropertyGrid was already found. Overwriting path with BatchContext version.');
+    rmStr = which('PropertyGrid');
+    rmpath(fileparts(rmStr));
+end
+
 %% start up
 addpath(genpath(fileparts(which(mfilename()))));
 
 %--------------------------------------------------------------------------
 % Get File menu handle...
 %--------------------------------------------------------------------------
-filemenu=findobj(fig,'Label','File');
+editmenu=findobj(fig,'label','File');
 
 
 %% context menu
@@ -67,7 +77,7 @@ filemenu=findobj(fig,'Label','File');
 %                'callback','CONTEXT_CONFIG=pop_context_edit;');
 
 %% batch menu
-batchmenu  = uimenu( filemenu, 'Label', 'Batch','separator','on');
+batchmenu  = uimenu( editmenu, 'Label', 'Batch','separator','on', 'position',length(editmenu.Children) - 2);
 
 % create menu commands
 % run history template batch...
