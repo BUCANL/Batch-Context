@@ -77,7 +77,11 @@ editmenu=findobj(fig,'label','File');
 %                'callback','CONTEXT_CONFIG=pop_context_edit;');
 
 %% batch menu
-batchmenu  = uimenu( editmenu, 'Label', 'Batch','separator','on', 'position',length(editmenu.Children) - 2);
+try
+    batchmenu  = uimenu( editmenu, 'Label', 'Batch','separator','on', 'position',length(editmenu.Children) - 2);
+catch
+    batchmenu  = uimenu( editmenu, 'Label', 'Batch','separator','on');
+end
 
 % create menu commands
 % run history template batch...
