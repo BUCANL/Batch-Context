@@ -52,18 +52,16 @@ function version = eegplugin_batch_context(fig,try_strings,catch_strings)
 
 version = get_version('batch_context', 'batch_context1.0.0');
 
-% Removing the code found in the following if-statement will alow for
-% multiple copies of PropertyGrid to be in the Matlab path. This has been
-% known to cause issues inside of EEGLAB. If there are any compatability
-% issues please contact us.
+% Adding to path. Skip property grid if it is already found.
+currentDir = fileparts(which(mfilename()));
+pathPiece = genpath(currentDir);
 if exist('PropertyGrid')
-    warning('PropertyGrid was already found. Overwriting path with BatchContext version.');
-    rmStr = which('PropertyGrid');
-    rmpath(fileparts(rmStr));
+    warning('PropertyGrid was already found. Skipping.');
+    rmStr = [currentDir '/external/PropertyGrid:'];
+    pathPiece = strrep(pathPiece,rmStr,'');
 end
 
-%% start up
-addpath(genpath(fileparts(which(mfilename()))));
+addpath(pathPiece);
 
 %--------------------------------------------------------------------------
 % Get File menu handle...
